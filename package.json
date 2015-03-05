@@ -11,7 +11,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "run-win": ".\\atom-shell\\atom.exe .\\atom-app"
+    "run-win": ".\\atom-shell\\atom.exe .\\atom-app",
+    "run-mac": "atom-shell/Atom.app/Contents/MacOS/Atom ./atom-app"
   },
   "author": "",
   "license": "ISC"
